@@ -1,0 +1,16 @@
+﻿item_code,item_name,item_group,stock_uom,is_stock_item,is_purchase_item,is_sales_item,include_item_in_manufacturing,is_fixed_asset,default_supplier,description
+PUMP-1000,Compact Centrifugal Pump 1HP,Finished Goods,Nos,1,1,0,1,0,,Finished product
+PUMP-HOUSING,Pump Housing Casting,Raw Materials,Nos,1,1,0,0,1,,Aluminium housing casting
+IMPELLER-SS,Stainless Steel Impeller,Raw Materials,Nos,1,1,0,0,1,,SS impeller
+MOTOR-1HP,Electric Motor 1HP,Raw Materials,Nos,1,1,0,0,1,,Single-phase electric motor
+SHAFT-SS,Stainless Steel Shaft,Raw Materials,Nos,1,1,0,0,1,,Machined stainless shaft
+BEARING-6202,6202 Deep Groove Bearing,Raw Materials,Nos,1,1,0,0,1,,Standard bearing
+SEAL-MECH,Mechanical Seal Set,Raw Materials,Nos,1,1,0,0,1,,Mechanical seal kit
+GASKET-PUMP,Pump Gasket,Raw Materials,Nos,1,1,0,0,1,,Elastomer gasket
+BOLT-M8,M8 Bolt and Nut Set,Raw Materials,Nos,1,1,0,0,1,,Fastener set
+WIRE-CU,Copper Wire,Raw Materials,Kg,1,1,0,0,1,,Copper wire allowance
+PAINT-EPOXY,Epoxy Protective Paint,Consumables,Litre,1,1,0,0,1,,Protective coating
+PUMP-ROTOR,Pump Rotor Subassembly,Sub Assemblies,Nos,1,1,0,1,0,,Rotor with shaft and impeller
+PUMP-END-COVER,Pump End Cover Subassembly,Sub Assemblies,Nos,1,1,0,1,0,,Housing and seal preassembly
+PUMP-PACK,Pump Packaging Kit,Raw Materials,Nos,1,1,0,0,1,,Carton and inserts
+PUMP-TEST-LABEL,Quality Test Label,Consumables,Nos,1,1,0,0,1,,QC label

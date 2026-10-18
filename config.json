@@ -1,0 +1,14 @@
+{
+  "company": "Demo Manufacturing Company",
+  "warehouses": {
+    "source": "Stores - DEMO",
+    "wip": "WIP - DEMO",
+    "finished_goods": "Finished Goods - DEMO"
+  },
+  "currency": "OMR",
+  "default_bom_quantity": 10,
+  "submit_boms": true,
+  "create_production_plans": true,
+  "create_work_orders": true,
+  "create_stock_entries": true
+}

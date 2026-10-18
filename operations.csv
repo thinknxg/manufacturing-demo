@@ -1,0 +1,8 @@
+﻿operation,workstation,time_in_mins,operating_cost,description
+Cut & Prepare,WS-CUT,10,0.25,Prepare incoming material
+Machine Shaft,WS-MACH,15,0.4,Machine shaft to drawing
+Assemble Rotor,WS-ASSEMBLY,12,0.35,"Fit shaft, impeller and bearings"
+Assemble Pump,WS-ASSEMBLY,20,0.5,"Fit rotor, housing, seal and gasket"
+Electrical Connection,WS-ASSEMBLY,10,0.2,Connect motor and inspect wiring
+Pressure & Run Test,WS-TEST,15,0.3,Run test and pressure inspection
+Paint & Pack,WS-TEST,10,0.2,"Apply coating, label and pack"

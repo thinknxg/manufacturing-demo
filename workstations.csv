@@ -1,0 +1,5 @@
+﻿workstation_name,workstation_description,description,is_group,hour_rate
+WS-CUT,Cutting & Preparation,Cutting raw stock and preparing components,1,25
+WS-MACH,Machining Cell,Turning and finishing shafts and housings,1,40
+WS-ASSEMBLY,Assembly Bench,Mechanical assembly and fitting,1,18
+WS-TEST,Testing & Packing,"Pressure test, electrical test, and packing",1,15

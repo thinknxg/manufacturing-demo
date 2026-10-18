@@ -1,0 +1,5 @@
+﻿routing_name,description,item_code,operation,sequence_id
+ROUTING-PUMP-1000,Pump 1HP Standard Routing,PUMP-1000,Assemble Pump,1
+ROUTING-PUMP-1000,Pump 1HP Standard Routing,PUMP-1000,Electrical Connection,2
+ROUTING-PUMP-1000,Pump 1HP Standard Routing,PUMP-1000,Pressure & Run Test,3
+ROUTING-PUMP-1000,Pump 1HP Standard Routing,PUMP-1000,Paint & Pack,4

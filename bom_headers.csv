@@ -1,0 +1,5 @@
+﻿name,item,quantity,is_active,is_default,description
+BOM-ROTOR,PUMP-ROTOR,1,1,0,Rotor subassembly BOM
+BOM-END-COVER,PUMP-END-COVER,1,1,0,End-cover and seal subassembly BOM
+BOM-PUMP-1000,PUMP-1000,1,1,0,Finished pump assembly BOM
+BOM-PUMP-1000-ALT,PUMP-1000,1,1,0,Alternative pump BOM for demo comparison

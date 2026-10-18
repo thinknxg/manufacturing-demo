@@ -1,0 +1,4 @@
+﻿work_order_name,production_item,bom_no,qty,planned_start_date,source_warehouse,wip_warehouse,fg_warehouse,status,description
+WO-DEMO-001,PUMP-1000,BOM-PUMP-1000,20,2026-10-20,Stores - DEMO,WIP - DEMO,Finished Goods - DEMO,Draft,Primary batch of 20 pumps
+WO-DEMO-002,PUMP-1000,BOM-PUMP-1000,12,2026-10-21,Stores - DEMO,WIP - DEMO,Finished Goods - DEMO,Draft,Second batch of 12 pumps
+WO-DEMO-003,PUMP-ROTOR,BOM-ROTOR,30,2026-10-20,Stores - DEMO,WIP - DEMO,Finished Goods - DEMO,Draft,Rotor subassembly replenishment

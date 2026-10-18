@@ -1,0 +1,57 @@
+{
+  "package": "ERPNext v16 Manufacturing Demo Dataset",
+  "generated_for": "ERPNext/Frappe v16 sandbox demonstration",
+  "files": {
+    "IMPORT_NOTES.md": {
+      "type": "md"
+    },
+    "README_IMPORT_ORDER.md": {
+      "type": "md"
+    },
+    "VALIDATION_CHECKLIST.md": {
+      "type": "md"
+    },
+    "bom_headers.csv": {
+      "rows": 4
+    },
+    "bom_items.csv": {
+      "rows": 26
+    },
+    "bom_operations.csv": {
+      "rows": 13
+    },
+    "config.json": {
+      "type": "json"
+    },
+    "import_dataset.py": {
+      "type": "py"
+    },
+    "item_groups.csv": {
+      "rows": 4
+    },
+    "items.csv": {
+      "rows": 15
+    },
+    "manifest.json": {
+      "type": "json"
+    },
+    "operations.csv": {
+      "rows": 7
+    },
+    "production_plan.csv": {
+      "rows": 2
+    },
+    "routing.csv": {
+      "rows": 4
+    },
+    "stock_entries.csv": {
+      "rows": 3
+    },
+    "work_orders.csv": {
+      "rows": 3
+    },
+    "workstations.csv": {
+      "rows": 4
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿plan_name,posting_date,item_code,planned_qty,fg_warehouse,wip_warehouse,notes
+PLAN-DEMO-001,2026-10-20,PUMP-1000,20,Finished Goods - DEMO,WIP - DEMO,Planned demand for 20 compact pumps
+PLAN-DEMO-002,2026-10-21,PUMP-1000,12,Finished Goods - DEMO,WIP - DEMO,Second demand batch for demo

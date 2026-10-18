@@ -1,0 +1,4 @@
+﻿stock_entry_name,stock_entry_type,work_order,posting_date,source_warehouse,target_warehouse,docstatus,notes
+SE-DEMO-TRANSFER-001,Material Transfer for Manufacture,WO-DEMO-001,2026-10-20,Stores - DEMO,WIP - DEMO,Draft,Example material issue to WIP; validate quantities before submission
+SE-DEMO-MANUFACTURE-001,Manufacture,WO-DEMO-001,2026-10-20,Stores - DEMO,Finished Goods - DEMO,Draft,Example finished pump manufacture; use ERPNext Get Items from Work Order flow
+SE-DEMO-TRANSFER-002,Material Transfer for Manufacture,WO-DEMO-003,2026-10-20,Stores - DEMO,WIP - DEMO,Draft,Example subassembly material transfer
