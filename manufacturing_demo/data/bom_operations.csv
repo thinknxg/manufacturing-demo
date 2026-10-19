@@ -1,14 +1,14 @@
-﻿bom,operation,time_in_mins,operating_cost,sequence_id
-BOM-ROTOR,Machine Shaft,15,0.4,1
-BOM-ROTOR,Assemble Rotor,12,0.35,2
-BOM-END-COVER,Cut & Prepare,10,0.25,1
-BOM-END-COVER,Assemble Pump,10,0.25,2
-BOM-PUMP-1000,Assemble Pump,20,0.5,1
-BOM-PUMP-1000,Electrical Connection,10,0.2,2
-BOM-PUMP-1000,Pressure & Run Test,15,0.3,3
-BOM-PUMP-1000,Paint & Pack,10,0.2,4
-BOM-PUMP-1000-ALT,Cut & Prepare,10,0.25,1
-BOM-PUMP-1000-ALT,Assemble Pump,20,0.5,2
-BOM-PUMP-1000-ALT,Electrical Connection,10,0.2,3
-BOM-PUMP-1000-ALT,Pressure & Run Test,15,0.3,4
-BOM-PUMP-1000-ALT,Paint & Pack,10,0.2,5
+﻿bom,operation,time_in_mins,operating_cost,sequence_id,workstation
+BOM-ROTOR,Machine Shaft,15,0.4,1,WS-MACH
+BOM-ROTOR,Assemble Rotor,12,0.35,2,WS-ASSEMBLY
+BOM-END-COVER,Cut & Prepare,10,0.25,1,WS-CUT
+BOM-END-COVER,Assemble Pump,10,0.25,2,WS-ASSEMBLY
+BOM-PUMP-1000,Assemble Pump,20,0.5,1,WS-ASSEMBLY
+BOM-PUMP-1000,Electrical Connection,10,0.2,2,WS-ASSEMBLY
+BOM-PUMP-1000,Pressure & Run Test,15,0.3,3,WS-TEST
+BOM-PUMP-1000,Paint & Pack,10,0.2,4,WS-TEST
+BOM-PUMP-1000-ALT,Cut & Prepare,10,0.25,1,WS-CUT
+BOM-PUMP-1000-ALT,Assemble Pump,20,0.5,2,WS-ASSEMBLY
+BOM-PUMP-1000-ALT,Electrical Connection,10,0.2,3,WS-ASSEMBLY
+BOM-PUMP-1000-ALT,Pressure & Run Test,15,0.3,4,WS-TEST
+BOM-PUMP-1000-ALT,Paint & Pack,10,0.2,5,WS-TEST
