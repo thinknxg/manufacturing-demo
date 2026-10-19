@@ -6,3 +6,7 @@ app_email = "dev@kreatao.com"
 app_license = "mit"
 required_apps = ["erpnext"]
 after_install = "manufacturing_demo.install.after_install"
+
+doc_events = {
+    "BOM": {"before_validate": "manufacturing_demo.install.fill_bom_workstations"}
+}

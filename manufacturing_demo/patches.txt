@@ -4,3 +4,4 @@
 manufacturing_demo.patches.load_demo_data
 manufacturing_demo.patches.load_demo_data_v2
 manufacturing_demo.patches.load_demo_data_v3
+manufacturing_demo.patches.load_demo_data_v4

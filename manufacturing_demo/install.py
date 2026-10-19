@@ -91,3 +91,18 @@ def after_install():
         load_demo_data()
     except Exception:
         frappe.log_error(title="manufacturing_demo import failed")
+
+
+def fill_bom_workstations(doc, method=None):
+    """Fill empty workstations on BOM operation rows from operations.csv."""
+    import csv
+
+    path = frappe.get_app_path("manufacturing_demo", "data", "operations.csv")
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        ws_map = {r["operation"]: r["workstation"] for r in csv.DictReader(f)}
+    for row in doc.get("operations") or []:
+        if row.get("workstation") or row.get("workstation_type"):
+            continue
+        ws = ws_map.get(row.get("operation"))
+        if ws:
+            row.workstation = ws
