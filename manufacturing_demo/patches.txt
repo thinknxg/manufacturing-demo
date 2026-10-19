@@ -2,3 +2,4 @@
 
 [post_model_sync]
 manufacturing_demo.patches.load_demo_data
+manufacturing_demo.patches.load_demo_data_v2

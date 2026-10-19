@@ -45,6 +45,24 @@ def _prepare(cfg):
     return cfg
 
 
+def _create_operations(data_dir):
+    import csv
+
+    with open(os.path.join(data_dir, "operations.csv"), newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        cols = reader.fieldnames
+        key = next((c for c in ("name", "operation", "operation_name") if c in cols), cols[0])
+        for row in reader:
+            name = (row.get(key) or "").strip()
+            if not name or frappe.db.exists("Operation", name):
+                continue
+            doc = frappe.new_doc("Operation")
+            doc.__newname = name
+            doc.name = name
+            doc.insert(ignore_permissions=True)
+            print(f"OK Operation (pre-created): {name}")
+
+
 def load_demo_data():
     src = frappe.get_app_path("manufacturing_demo", "data")
     dst = os.path.join(tempfile.mkdtemp(), "data")
@@ -56,6 +74,8 @@ def load_demo_data():
     cfg = _prepare(cfg)
     with open(cfg_path, "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2)
+
+    _create_operations(dst)
 
     buf = io.StringIO()
     with contextlib.redirect_stdout(buf):
